@@ -1,0 +1,532 @@
+$nav-bg-color: linear-gradient(to bottom, #dddddd 0%,#fbfbfb 100%);
+$transition200ms: 200ms all ease-in-out;
+$transition100ms: 100ms all ease-in-out;
+
+
+
+
+@font-face {
+    font-family: Coolvetica;
+    src: url("./Fonts/coolvetica rg.ttf");
+}
+ * {
+     font-family: Arial;
+ }
+
+body {
+    background: $nav-bg-color;
+    position: relative;
+    top: 166px;
+}
+
+h2 {
+    font-family: Coolvetica;
+    font-size: 44pt;
+    margin-bottom: 44px;
+}
+
+p {
+    font-size: 18pt;
+    font-family: Arial;
+}
+
+section {
+    
+}
+
+.call-to-action-banner {
+    background-color: #000000;
+    box-shadow: 0px 5px 14px 0px #555555;
+
+    .text {
+        text-align: center;
+        font-family: Coolvetica;
+        font-size: 15pt;
+        color: #fff;
+        padding: 12px;    
+
+        span {
+            font-size: 13pt;
+            font-family: Coolvetica;
+        }
+    }
+}
+
+.alert {
+    width: 90%;
+}
+
+.CTA {
+    display: flex;
+    padding: 10px 90px 0px 60px;
+    margin-top: 50px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 3px #444;
+    font-family: Coolvetica;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: $transition200ms;
+
+    .phone-icon {
+        font-size: 75px;
+        margin-right: 21px;
+    }
+
+    .cta-text {
+        font-size: 34pt;
+        line-height: 40px;
+        text-align: left;
+
+        span {
+            font-size: 22pt;
+        }
+    }
+}
+
+.CTA:hover, .CTA:focus {
+    background-color: #eeeeee;
+    box-shadow: 0px 5px 29px 3px #444;
+    transition: $transition200ms;
+    color: #000000;
+}
+
+
+
+.section-one {
+    background-color: #6d6d6d;
+    color: white;
+    padding-top: 63px;
+    padding-bottom: 63px;
+
+    h2 {
+        text-shadow: 2px 2px 3px black;
+    }
+
+    img {
+        transform: translateY(27%);
+    }
+}
+
+.section-two {
+
+    background-color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+
+    ul {
+        font-size: 17pt;
+        padding-left: 25px;
+    }
+
+    img {
+        width: 70%;
+    }
+}
+
+.section-three {
+    background: $nav-bg-color;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-four {
+    background-color: #ffffff;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    p {
+        margin-bottom: 60px;
+    }
+
+    input[name="name"], input[name="email"] {
+        height: 49px;
+        background-color: #e5e5e5;
+        transition: $transition100ms;
+    }
+
+    textarea[name="message"] {
+        height: 169px;
+        background-color: #e5e5e5;
+        transition: $transition100ms;
+    }
+
+    input[name="name"]::placeholder, input[name="email"]::placeholder, textarea {
+        font-size: 16pt;
+    }
+
+    input[name="name"]:hover, input[name="email"]:hover, textarea:hover {
+        background-color: #f7f7f7;
+        box-shadow: inset 0 1px 5px rgba(0,0,0,0.4);
+        transition: $transition100ms;
+    }
+
+    .submit-button {
+    
+        background: linear-gradient(157deg, #272727 50%,#000000 50%);
+        border: none;
+        border-radius: 3px;
+        font-size: 24pt;
+        padding: 10px 30px 10px 30px;
+        box-shadow: 0px 1px 10px 3px #444;
+        transition: $transition200ms;
+
+        .fa {
+            font-size: 18pt;
+        }
+    }
+
+    .submit-button:hover {
+        box-shadow: 0px 1px 20px 3px #444;
+        transition: $transition200ms;
+    }
+
+    .submit-button:disabled, button[disabled] {
+        background: linear-gradient(157deg, #272727 50%,#000000 50%);
+    }
+
+    form {
+        width: 90%;
+
+        button {
+            background: linear-gradient(157deg, #272727 50%,#000000 50%);
+            border: none;
+            border-radius: 3px;
+            font-size: 24pt;
+            padding: 10px 30px 10px 30px;
+            box-shadow: 0px 1px 10px 3px #444;
+            transition: $transition200ms;
+
+            .fa {
+                font-size: 18pt;
+            }
+        }
+
+        button:hover {
+            box-shadow: 0px 1px 20px 3px #444;
+            transition: $transition200ms;
+        }
+
+        button:disabled, button[disabled] {
+            background: linear-gradient(157deg, #272727 50%,#000000 50%);
+        }
+    }
+
+    ul {
+        list-style: none;
+        margin-top: 50%;
+        transform: translateY(-50%);
+
+        li{
+            display: flex;
+            margin-bottom: 48px;
+        }
+
+        .contact-list-icon {
+            background-color: black;
+            height: 76px;
+            width: 76px;
+        }
+
+        .contact-list-text {
+            margin-left: 21px;
+            font-size: 20pt;
+            font-weight: bold;
+
+            .title {
+                font-size: 18pt;
+                text-transform: uppercase;  
+            }
+
+            .gray {
+                color: #747474;
+            }
+
+            .email {
+                text-decoration: underline;
+                transition: $transition100ms;
+            }
+
+            .email:hover {
+                text-decoration: underline;
+                color: #ff0000;
+                transition: $transition100ms;
+            }
+        }
+    }
+}
+
+nav.navbar {
+    background-color: #f7f6f6;
+    color: #535353;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    border-bottom: 0;
+    box-shadow: 0px 5px 14px 0px #555555;
+    border-radius: 0;
+}
+
+.navbar-nav {
+
+    li {
+
+        a {
+            padding: 101px 33.5px 48px 33.5px;
+            font-size: 21pt;
+            font-family: Arial;
+            font-weight: bold;
+            color: #535353;
+            transition: $transition200ms;
+        }
+
+        a:hover, a:focus {
+            color: #000000;
+            background-color: $nav-bg-color;
+            transition: $transition200ms;
+        }
+    }
+}
+
+.navbar-brand {
+    padding: 90px 33.5px 0px 30px;
+}
+
+@media only screen and (max-width: 990px) and (min-width: 768px) {
+
+    body {
+        top: 160px;
+    }
+
+    .alert {
+        width: 100%;
+    }
+
+    .navbar-brand {
+        padding: 81px 33.5px 0px 30px;
+    }
+
+    .navbar-nav {
+        li {
+            a {
+                padding: 93px 13.5px 48px 13.5px;
+                font-size: 15pt;
+            }
+
+        } 
+    }
+
+    .CTA {
+        padding: 10px 60px 0px 30px;
+
+        .phone-icon {
+            font-size: 54px;
+            margin-right: 21px;
+        }
+
+        .cta-text {
+            font-size: 24pt;
+            line-height: 28px;
+
+            span {
+                font-size: 16pt;
+            }
+        }
+
+        
+    } 
+
+    .section-two {
+    
+        img {
+            width: 50%;
+            margin: 0 auto;
+            margin-bottom: 40px;
+        } 
+
+    }
+
+    .section-three {
+    
+        img {
+            width: 50%;
+            margin: 0 auto;
+            margin-bottom: 40px;
+        } 
+
+    }
+
+    .section-four {
+
+        form {
+            width: 100%;
+        }
+    }
+        
+}
+
+
+@media screen and (max-width: 767px) {
+    body {
+        top: 50px;
+    }
+
+    h2 {
+        font-size: 19pt;
+    }
+
+    p {
+        font-size: 11pt;
+    }
+
+    .alert {
+        width: 100%;
+    }
+
+    .navbar-brand {
+        padding: 2px 0px 0px 10px;
+    }
+
+    .navbar-toggle {
+
+        border-radius: 0px;
+    
+        .icon-bar {
+            background-color: #000000;
+        }
+    }
+
+    .navbar-toggle:active, .navbar-toggle:focus {
+        background-color: #e0e0e0;
+    }
+
+    .navbar {
+        box-shadow: 0px 0px;
+    }
+
+    .navbar-nav {
+
+        li {
+            padding: 1px 25px 0px 25px;
+
+            a {
+                background-color: #000000;
+                color: #ffffff;
+                text-align: center;
+                font-size: 16pt;
+                padding: 15px;
+            }
+        }
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile-order-0 {
+        order: 0;
+    }
+
+    .mobile-order-1 {
+        order: 1;
+    }
+
+    .mobile-order-2 {
+        order: 2;
+    }
+
+    .section-one {
+
+        padding-top: 0px;
+        padding-bottom: 30px;
+    
+        img {
+            transform: translateY(0%);
+            margin-bottom: 40px;
+        }
+        
+    }
+
+    .section-two {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-image: none !important;
+
+        img {
+            width: 100%;
+            margin-bottom: 40px;
+        }
+
+        ul {
+            font-size: 11pt;
+            padding-left: 15px;
+        }
+    }
+
+    .section-three {
+        padding-bottom: 30px;
+        padding-top: 30px;
+        background-image: none !important;
+
+        img {
+            margin-bottom: 40px;
+        }
+    }
+
+    .section-four {
+        padding-bottom: 30px;
+        padding-top: 30px;
+        background-image: none !important;
+
+        .section-four p {
+            margin-bottom: 30px;
+        }
+
+        .submit-button {
+            width: 100%;
+            background: linear-gradient(170deg, #272727 50%, #000000 50%);
+            box-shadow: 0px 0px #444;
+            font-size: 14pt;
+
+            .fa {
+                font-size: 10pt;
+            }
+        }
+
+        .submit-button:disabled, button[disabled] {
+            background: linear-gradient(170deg, #272727 50%, #000000 50%);
+        }
+
+        form {
+            width: 100%;
+
+            button {
+                width: 100%;
+                background: linear-gradient(170deg, #272727 50%, #000000 50%);
+                box-shadow: 0px 0px #444;
+                font-size: 14pt;
+
+                .fa {
+                    font-size: 10pt;
+                }
+            }
+
+            button:disabled, button[disabled] {
+                background: linear-gradient(170deg, #272727 50%, #000000 50%);
+            }
+        }
+
+    }
+}

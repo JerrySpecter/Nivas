@@ -1,0 +1,536 @@
+@font-face {
+  font-family: Coolvetica;
+  src: url("./Fonts/coolvetica rg.ttf");
+}
+
+/* line 12, E:/Code/Nivas/css/Sass/main.scss */
+* {
+  font-family: Arial;
+}
+
+/* line 16, E:/Code/Nivas/css/Sass/main.scss */
+body {
+  background: linear-gradient(to bottom, #dddddd 0%, #fbfbfb 100%);
+  position: relative;
+  top: 166px;
+}
+
+/* line 22, E:/Code/Nivas/css/Sass/main.scss */
+h2 {
+  font-family: Coolvetica;
+  font-size: 44pt;
+  margin-bottom: 44px;
+}
+
+/* line 28, E:/Code/Nivas/css/Sass/main.scss */
+p {
+  font-size: 18pt;
+  font-family: Arial;
+}
+
+/* line 37, E:/Code/Nivas/css/Sass/main.scss */
+.call-to-action-banner {
+  background-color: #000000;
+  box-shadow: 0px 5px 14px 0px #555555;
+}
+
+/* line 41, E:/Code/Nivas/css/Sass/main.scss */
+.call-to-action-banner .text {
+  text-align: center;
+  font-family: Coolvetica;
+  font-size: 15pt;
+  color: #fff;
+  padding: 12px;
+}
+
+/* line 48, E:/Code/Nivas/css/Sass/main.scss */
+.call-to-action-banner .text span {
+  font-size: 13pt;
+  font-family: Coolvetica;
+}
+
+/* line 55, E:/Code/Nivas/css/Sass/main.scss */
+.alert {
+  width: 90%;
+}
+
+/* line 59, E:/Code/Nivas/css/Sass/main.scss */
+.CTA {
+  display: flex;
+  padding: 10px 90px 0px 60px;
+  margin-top: 50px;
+  background-color: #ffffff;
+  color: #000000;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px 3px #444;
+  font-family: Coolvetica;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 200ms all ease-in-out;
+}
+
+/* line 73, E:/Code/Nivas/css/Sass/main.scss */
+.CTA .phone-icon {
+  font-size: 75px;
+  margin-right: 21px;
+}
+
+/* line 78, E:/Code/Nivas/css/Sass/main.scss */
+.CTA .cta-text {
+  font-size: 34pt;
+  line-height: 40px;
+  text-align: left;
+}
+
+/* line 83, E:/Code/Nivas/css/Sass/main.scss */
+.CTA .cta-text span {
+  font-size: 22pt;
+}
+
+/* line 89, E:/Code/Nivas/css/Sass/main.scss */
+.CTA:hover, .CTA:focus {
+  background-color: #eeeeee;
+  box-shadow: 0px 5px 29px 3px #444;
+  transition: 200ms all ease-in-out;
+  color: #000000;
+}
+
+/* line 98, E:/Code/Nivas/css/Sass/main.scss */
+.section-one {
+  background-color: #6d6d6d;
+  color: white;
+  padding-top: 63px;
+  padding-bottom: 63px;
+}
+
+/* line 104, E:/Code/Nivas/css/Sass/main.scss */
+.section-one h2 {
+  text-shadow: 2px 2px 3px black;
+}
+
+/* line 108, E:/Code/Nivas/css/Sass/main.scss */
+.section-one img {
+  transform: translateY(27%);
+}
+
+/* line 113, E:/Code/Nivas/css/Sass/main.scss */
+.section-two {
+  background-color: #ffffff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-position-x: center;
+  background-repeat: no-repeat;
+}
+
+/* line 121, E:/Code/Nivas/css/Sass/main.scss */
+.section-two ul {
+  font-size: 17pt;
+  padding-left: 25px;
+}
+
+/* line 126, E:/Code/Nivas/css/Sass/main.scss */
+.section-two img {
+  width: 70%;
+}
+
+/* line 131, E:/Code/Nivas/css/Sass/main.scss */
+.section-three {
+  background: linear-gradient(to bottom, #dddddd 0%, #fbfbfb 100%);
+  padding-bottom: 100px;
+  padding-top: 100px;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 140, E:/Code/Nivas/css/Sass/main.scss */
+.section-four {
+  background-color: #ffffff;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 148, E:/Code/Nivas/css/Sass/main.scss */
+.section-four p {
+  margin-bottom: 60px;
+}
+
+/* line 152, E:/Code/Nivas/css/Sass/main.scss */
+.section-four input[name="name"], .section-four input[name="email"] {
+  height: 49px;
+  background-color: #e5e5e5;
+  transition: 100ms all ease-in-out;
+}
+
+/* line 158, E:/Code/Nivas/css/Sass/main.scss */
+.section-four textarea[name="message"] {
+  height: 169px;
+  background-color: #e5e5e5;
+  transition: 100ms all ease-in-out;
+}
+
+/* line 164, E:/Code/Nivas/css/Sass/main.scss */
+.section-four input[name="name"]::placeholder, .section-four input[name="email"]::placeholder, .section-four textarea {
+  font-size: 16pt;
+}
+
+/* line 168, E:/Code/Nivas/css/Sass/main.scss */
+.section-four input[name="name"]:hover, .section-four input[name="email"]:hover, .section-four textarea:hover {
+  background-color: #f7f7f7;
+  box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.4);
+  transition: 100ms all ease-in-out;
+}
+
+/* line 174, E:/Code/Nivas/css/Sass/main.scss */
+.section-four .submit-button {
+  background: linear-gradient(157deg, #272727 50%, #000000 50%);
+  border: none;
+  border-radius: 3px;
+  font-size: 24pt;
+  padding: 10px 30px 10px 30px;
+  box-shadow: 0px 1px 10px 3px #444;
+  transition: 200ms all ease-in-out;
+}
+
+/* line 184, E:/Code/Nivas/css/Sass/main.scss */
+.section-four .submit-button .fa {
+  font-size: 18pt;
+}
+
+/* line 189, E:/Code/Nivas/css/Sass/main.scss */
+.section-four .submit-button:hover {
+  box-shadow: 0px 1px 20px 3px #444;
+  transition: 200ms all ease-in-out;
+}
+
+/* line 194, E:/Code/Nivas/css/Sass/main.scss */
+.section-four .submit-button:disabled, .section-four button[disabled] {
+  background: linear-gradient(157deg, #272727 50%, #000000 50%);
+}
+
+/* line 198, E:/Code/Nivas/css/Sass/main.scss */
+.section-four form {
+  width: 90%;
+}
+
+/* line 201, E:/Code/Nivas/css/Sass/main.scss */
+.section-four form button {
+  background: linear-gradient(157deg, #272727 50%, #000000 50%);
+  border: none;
+  border-radius: 3px;
+  font-size: 24pt;
+  padding: 10px 30px 10px 30px;
+  box-shadow: 0px 1px 10px 3px #444;
+  transition: 200ms all ease-in-out;
+}
+
+/* line 210, E:/Code/Nivas/css/Sass/main.scss */
+.section-four form button .fa {
+  font-size: 18pt;
+}
+
+/* line 215, E:/Code/Nivas/css/Sass/main.scss */
+.section-four form button:hover {
+  box-shadow: 0px 1px 20px 3px #444;
+  transition: 200ms all ease-in-out;
+}
+
+/* line 220, E:/Code/Nivas/css/Sass/main.scss */
+.section-four form button:disabled, .section-four form button[disabled] {
+  background: linear-gradient(157deg, #272727 50%, #000000 50%);
+}
+
+/* line 225, E:/Code/Nivas/css/Sass/main.scss */
+.section-four ul {
+  list-style: none;
+  margin-top: 50%;
+  transform: translateY(-50%);
+}
+
+/* line 230, E:/Code/Nivas/css/Sass/main.scss */
+.section-four ul li {
+  display: flex;
+  margin-bottom: 48px;
+}
+
+/* line 235, E:/Code/Nivas/css/Sass/main.scss */
+.section-four ul .contact-list-icon {
+  background-color: black;
+  height: 76px;
+  width: 76px;
+}
+
+/* line 241, E:/Code/Nivas/css/Sass/main.scss */
+.section-four ul .contact-list-text {
+  margin-left: 21px;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+/* line 246, E:/Code/Nivas/css/Sass/main.scss */
+.section-four ul .contact-list-text .title {
+  font-size: 18pt;
+  text-transform: uppercase;
+}
+
+/* line 251, E:/Code/Nivas/css/Sass/main.scss */
+.section-four ul .contact-list-text .gray {
+  color: #747474;
+}
+
+/* line 255, E:/Code/Nivas/css/Sass/main.scss */
+.section-four ul .contact-list-text .email {
+  text-decoration: underline;
+  transition: 100ms all ease-in-out;
+}
+
+/* line 260, E:/Code/Nivas/css/Sass/main.scss */
+.section-four ul .contact-list-text .email:hover {
+  text-decoration: underline;
+  color: #ff0000;
+  transition: 100ms all ease-in-out;
+}
+
+/* line 269, E:/Code/Nivas/css/Sass/main.scss */
+nav.navbar {
+  background-color: #f7f6f6;
+  color: #535353;
+}
+
+/* line 274, E:/Code/Nivas/css/Sass/main.scss */
+.navbar {
+  margin-bottom: 0px;
+  border-bottom: 0;
+  box-shadow: 0px 5px 14px 0px #555555;
+  border-radius: 0;
+}
+
+/* line 285, E:/Code/Nivas/css/Sass/main.scss */
+.navbar-nav li a {
+  padding: 101px 33.5px 48px 33.5px;
+  font-size: 21pt;
+  font-family: Arial;
+  font-weight: bold;
+  color: #535353;
+  transition: 200ms all ease-in-out;
+}
+
+/* line 294, E:/Code/Nivas/css/Sass/main.scss */
+.navbar-nav li a:hover, .navbar-nav li a:focus {
+  color: #000000;
+  background-color: linear-gradient(to bottom, #dddddd 0%, #fbfbfb 100%);
+  transition: 200ms all ease-in-out;
+}
+
+/* line 302, E:/Code/Nivas/css/Sass/main.scss */
+.navbar-brand {
+  padding: 90px 33.5px 0px 30px;
+}
+
+@media only screen and (max-width: 990px) and (min-width: 768px) {
+  /* line 308, E:/Code/Nivas/css/Sass/main.scss */
+  body {
+    top: 160px;
+  }
+  /* line 312, E:/Code/Nivas/css/Sass/main.scss */
+  .alert {
+    width: 100%;
+  }
+  /* line 316, E:/Code/Nivas/css/Sass/main.scss */
+  .navbar-brand {
+    padding: 81px 33.5px 0px 30px;
+  }
+  /* line 322, E:/Code/Nivas/css/Sass/main.scss */
+  .navbar-nav li a {
+    padding: 93px 13.5px 48px 13.5px;
+    font-size: 15pt;
+  }
+  /* line 330, E:/Code/Nivas/css/Sass/main.scss */
+  .CTA {
+    padding: 10px 60px 0px 30px;
+  }
+  /* line 333, E:/Code/Nivas/css/Sass/main.scss */
+  .CTA .phone-icon {
+    font-size: 54px;
+    margin-right: 21px;
+  }
+  /* line 338, E:/Code/Nivas/css/Sass/main.scss */
+  .CTA .cta-text {
+    font-size: 24pt;
+    line-height: 28px;
+  }
+  /* line 342, E:/Code/Nivas/css/Sass/main.scss */
+  .CTA .cta-text span {
+    font-size: 16pt;
+  }
+  /* line 352, E:/Code/Nivas/css/Sass/main.scss */
+  .section-two img {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  /* line 362, E:/Code/Nivas/css/Sass/main.scss */
+  .section-three img {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  /* line 372, E:/Code/Nivas/css/Sass/main.scss */
+  .section-four form {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 381, E:/Code/Nivas/css/Sass/main.scss */
+  body {
+    top: 50px;
+  }
+  /* line 385, E:/Code/Nivas/css/Sass/main.scss */
+  h2 {
+    font-size: 19pt;
+  }
+  /* line 389, E:/Code/Nivas/css/Sass/main.scss */
+  p {
+    font-size: 11pt;
+  }
+  /* line 393, E:/Code/Nivas/css/Sass/main.scss */
+  .alert {
+    width: 100%;
+  }
+  /* line 397, E:/Code/Nivas/css/Sass/main.scss */
+  .navbar-brand {
+    padding: 2px 0px 0px 10px;
+  }
+  /* line 401, E:/Code/Nivas/css/Sass/main.scss */
+  .navbar-toggle {
+    border-radius: 0px;
+  }
+  /* line 405, E:/Code/Nivas/css/Sass/main.scss */
+  .navbar-toggle .icon-bar {
+    background-color: #000000;
+  }
+  /* line 410, E:/Code/Nivas/css/Sass/main.scss */
+  .navbar-toggle:active, .navbar-toggle:focus {
+    background-color: #e0e0e0;
+  }
+  /* line 414, E:/Code/Nivas/css/Sass/main.scss */
+  .navbar {
+    box-shadow: 0px 0px;
+  }
+  /* line 420, E:/Code/Nivas/css/Sass/main.scss */
+  .navbar-nav li {
+    padding: 1px 25px 0px 25px;
+  }
+  /* line 423, E:/Code/Nivas/css/Sass/main.scss */
+  .navbar-nav li a {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16pt;
+    padding: 15px;
+  }
+  /* line 433, E:/Code/Nivas/css/Sass/main.scss */
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 438, E:/Code/Nivas/css/Sass/main.scss */
+  .mobile-order-0 {
+    order: 0;
+  }
+  /* line 442, E:/Code/Nivas/css/Sass/main.scss */
+  .mobile-order-1 {
+    order: 1;
+  }
+  /* line 446, E:/Code/Nivas/css/Sass/main.scss */
+  .mobile-order-2 {
+    order: 2;
+  }
+  /* line 450, E:/Code/Nivas/css/Sass/main.scss */
+  .section-one {
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
+  /* line 455, E:/Code/Nivas/css/Sass/main.scss */
+  .section-one img {
+    transform: translateY(0%);
+    margin-bottom: 40px;
+  }
+  /* line 462, E:/Code/Nivas/css/Sass/main.scss */
+  .section-two {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: none !important;
+  }
+  /* line 467, E:/Code/Nivas/css/Sass/main.scss */
+  .section-two img {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  /* line 472, E:/Code/Nivas/css/Sass/main.scss */
+  .section-two ul {
+    font-size: 11pt;
+    padding-left: 15px;
+  }
+  /* line 478, E:/Code/Nivas/css/Sass/main.scss */
+  .section-three {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-image: none !important;
+  }
+  /* line 483, E:/Code/Nivas/css/Sass/main.scss */
+  .section-three img {
+    margin-bottom: 40px;
+  }
+  /* line 488, E:/Code/Nivas/css/Sass/main.scss */
+  .section-four {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-image: none !important;
+  }
+  /* line 493, E:/Code/Nivas/css/Sass/main.scss */
+  .section-four .section-four p {
+    margin-bottom: 30px;
+  }
+  /* line 497, E:/Code/Nivas/css/Sass/main.scss */
+  .section-four .submit-button {
+    width: 100%;
+    background: linear-gradient(170deg, #272727 50%, #000000 50%);
+    box-shadow: 0px 0px #444;
+    font-size: 14pt;
+  }
+  /* line 503, E:/Code/Nivas/css/Sass/main.scss */
+  .section-four .submit-button .fa {
+    font-size: 10pt;
+  }
+  /* line 508, E:/Code/Nivas/css/Sass/main.scss */
+  .section-four .submit-button:disabled, .section-four button[disabled] {
+    background: linear-gradient(170deg, #272727 50%, #000000 50%);
+  }
+  /* line 512, E:/Code/Nivas/css/Sass/main.scss */
+  .section-four form {
+    width: 100%;
+  }
+  /* line 515, E:/Code/Nivas/css/Sass/main.scss */
+  .section-four form button {
+    width: 100%;
+    background: linear-gradient(170deg, #272727 50%, #000000 50%);
+    box-shadow: 0px 0px #444;
+    font-size: 14pt;
+  }
+  /* line 521, E:/Code/Nivas/css/Sass/main.scss */
+  .section-four form button .fa {
+    font-size: 10pt;
+  }
+  /* line 526, E:/Code/Nivas/css/Sass/main.scss */
+  .section-four form button:disabled, .section-four form button[disabled] {
+    background: linear-gradient(170deg, #272727 50%, #000000 50%);
+  }
+}
+
+/*# sourceMappingURL=../main.map */
